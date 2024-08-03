@@ -1,0 +1,19 @@
+.p-field {
+    width: 100%;
+}
+
+.p-field input,
+.p-field textarea {
+    width: 100%;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.submit-button {
+    align-self: flex-end;
+}
