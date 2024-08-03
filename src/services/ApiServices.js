@@ -2,7 +2,7 @@ import axios from 'axios';
 
 class ApiService {
     constructor() {
-        this.apiUrl = 'https://book-management-apis.vercel.app/'; // Base URL for APIs
+        this.apiUrl = 'https://book-management-apis-yu9p.vercel.app/api/'; // Base URL for APIs
         this.axiosInstance = axios.create({
             baseURL: this.apiUrl,
             headers: {
